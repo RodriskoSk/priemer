@@ -1,7 +1,9 @@
-a=int(input("Zadaj prvé číslo: "))
-b=int(input("Zadaj druhé číslo: "))
-c=int(input("Zadaj tretie číslo: "))
+a=int(input("Koľko čísel: "))
+c=0
 
-priem=a+b+c/3
+for i in range (0,a):
+  b=int(input("Zadaj Číslo: "))
+  c=c+b
+priem=c/a
 
 print(priem)
